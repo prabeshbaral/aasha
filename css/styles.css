@@ -1,0 +1,156 @@
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+a.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+} */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #cdd2d7;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #006400;
+    font-weight: bold;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #0bf642;
+}
+
+.navbar a {
+    color: rgb(70, 136, 77) !important;
+}
+
+.navbar a:hover {
+    color: #0c79e6 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #006400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Meet the Team */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+img.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #006400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    color: #006400;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Form Styling */
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+}
+
+form button {
+    margin-top: 15px;
+}
+
+form .form-label {
+    font-size: 18px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-4 {
+        width: 80%;
+    }
+}
